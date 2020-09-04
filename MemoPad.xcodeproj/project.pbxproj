@@ -15,6 +15,7 @@
 		BDDB348C25021CFD00842C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDB348A25021CFD00842C44 /* LaunchScreen.storyboard */; };
 		BDDB349725021CFD00842C44 /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB349625021CFD00842C44 /* MemoPadTests.swift */; };
 		BDDB34A225021CFD00842C44 /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB34A125021CFD00842C44 /* MemoPadUITests.swift */; };
+		BDDB34B025021DAD00842C44 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB34AF25021DAD00842C44 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BDDB349D25021CFD00842C44 /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDB34A125021CFD00842C44 /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		BDDB34A325021CFD00842C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDB34AF25021DAD00842C44 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BDDB348825021CFD00842C44 /* Assets.xcassets */,
 				BDDB348A25021CFD00842C44 /* LaunchScreen.storyboard */,
 				BDDB348D25021CFD00842C44 /* Info.plist */,
+				BDDB34AF25021DAD00842C44 /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDB34B025021DAD00842C44 /* MemoViewController.swift in Sources */,
 				BDDB348425021CFD00842C44 /* ViewController.swift in Sources */,
 				BDDB348025021CFD00842C44 /* AppDelegate.swift in Sources */,
 				BDDB348225021CFD00842C44 /* SceneDelegate.swift in Sources */,
