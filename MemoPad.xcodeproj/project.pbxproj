@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDDB348025021CFD00842C44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB347F25021CFD00842C44 /* AppDelegate.swift */; };
+		BDDB348225021CFD00842C44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB348125021CFD00842C44 /* SceneDelegate.swift */; };
+		BDDB348425021CFD00842C44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB348325021CFD00842C44 /* ViewController.swift */; };
+		BDDB348725021CFD00842C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDB348525021CFD00842C44 /* Main.storyboard */; };
+		BDDB348925021CFD00842C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDB348825021CFD00842C44 /* Assets.xcassets */; };
+		BDDB348C25021CFD00842C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDB348A25021CFD00842C44 /* LaunchScreen.storyboard */; };
+		BDDB349725021CFD00842C44 /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB349625021CFD00842C44 /* MemoPadTests.swift */; };
+		BDDB34A225021CFD00842C44 /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB34A125021CFD00842C44 /* MemoPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDDB349325021CFD00842C44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDDB347425021CFD00842C44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDB347B25021CFD00842C44;
+			remoteInfo = MemoPad;
+		};
+		BDDB349E25021CFD00842C44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDDB347425021CFD00842C44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDB347B25021CFD00842C44;
+			remoteInfo = MemoPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDDB347C25021CFD00842C44 /* MemoPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDB347F25021CFD00842C44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDDB348125021CFD00842C44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDDB348325021CFD00842C44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDDB348625021CFD00842C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDDB348825021CFD00842C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDDB348B25021CFD00842C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDDB348D25021CFD00842C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDB349225021CFD00842C44 /* MemoPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDB349625021CFD00842C44 /* MemoPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadTests.swift; sourceTree = "<group>"; };
+		BDDB349825021CFD00842C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDB349D25021CFD00842C44 /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDB34A125021CFD00842C44 /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
+		BDDB34A325021CFD00842C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDDB347925021CFD00842C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB348F25021CFD00842C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB349A25021CFD00842C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDDB347325021CFD00842C44 = {
+			isa = PBXGroup;
+			children = (
+				BDDB347E25021CFD00842C44 /* MemoPad */,
+				BDDB349525021CFD00842C44 /* MemoPadTests */,
+				BDDB34A025021CFD00842C44 /* MemoPadUITests */,
+				BDDB347D25021CFD00842C44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDDB347D25021CFD00842C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB347C25021CFD00842C44 /* MemoPad.app */,
+				BDDB349225021CFD00842C44 /* MemoPadTests.xctest */,
+				BDDB349D25021CFD00842C44 /* MemoPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDDB347E25021CFD00842C44 /* MemoPad */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB347F25021CFD00842C44 /* AppDelegate.swift */,
+				BDDB348125021CFD00842C44 /* SceneDelegate.swift */,
+				BDDB348325021CFD00842C44 /* ViewController.swift */,
+				BDDB348525021CFD00842C44 /* Main.storyboard */,
+				BDDB348825021CFD00842C44 /* Assets.xcassets */,
+				BDDB348A25021CFD00842C44 /* LaunchScreen.storyboard */,
+				BDDB348D25021CFD00842C44 /* Info.plist */,
+			);
+			path = MemoPad;
+			sourceTree = "<group>";
+		};
+		BDDB349525021CFD00842C44 /* MemoPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB349625021CFD00842C44 /* MemoPadTests.swift */,
+				BDDB349825021CFD00842C44 /* Info.plist */,
+			);
+			path = MemoPadTests;
+			sourceTree = "<group>";
+		};
+		BDDB34A025021CFD00842C44 /* MemoPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB34A125021CFD00842C44 /* MemoPadUITests.swift */,
+				BDDB34A325021CFD00842C44 /* Info.plist */,
+			);
+			path = MemoPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDDB347B25021CFD00842C44 /* MemoPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDB34A625021CFD00842C44 /* Build configuration list for PBXNativeTarget "MemoPad" */;
+			buildPhases = (
+				BDDB347825021CFD00842C44 /* Sources */,
+				BDDB347925021CFD00842C44 /* Frameworks */,
+				BDDB347A25021CFD00842C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoPad;
+			productName = MemoPad;
+			productReference = BDDB347C25021CFD00842C44 /* MemoPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDDB349125021CFD00842C44 /* MemoPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDB34A925021CFD00842C44 /* Build configuration list for PBXNativeTarget "MemoPadTests" */;
+			buildPhases = (
+				BDDB348E25021CFD00842C44 /* Sources */,
+				BDDB348F25021CFD00842C44 /* Frameworks */,
+				BDDB349025021CFD00842C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDB349425021CFD00842C44 /* PBXTargetDependency */,
+			);
+			name = MemoPadTests;
+			productName = MemoPadTests;
+			productReference = BDDB349225021CFD00842C44 /* MemoPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDDB349C25021CFD00842C44 /* MemoPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDB34AC25021CFD00842C44 /* Build configuration list for PBXNativeTarget "MemoPadUITests" */;
+			buildPhases = (
+				BDDB349925021CFD00842C44 /* Sources */,
+				BDDB349A25021CFD00842C44 /* Frameworks */,
+				BDDB349B25021CFD00842C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDB349F25021CFD00842C44 /* PBXTargetDependency */,
+			);
+			name = MemoPadUITests;
+			productName = MemoPadUITests;
+			productReference = BDDB349D25021CFD00842C44 /* MemoPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDDB347425021CFD00842C44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Takayama Mizuki";
+				TargetAttributes = {
+					BDDB347B25021CFD00842C44 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					BDDB349125021CFD00842C44 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = BDDB347B25021CFD00842C44;
+					};
+					BDDB349C25021CFD00842C44 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = BDDB347B25021CFD00842C44;
+					};
+				};
+			};
+			buildConfigurationList = BDDB347725021CFD00842C44 /* Build configuration list for PBXProject "MemoPad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDDB347325021CFD00842C44;
+			productRefGroup = BDDB347D25021CFD00842C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDDB347B25021CFD00842C44 /* MemoPad */,
+				BDDB349125021CFD00842C44 /* MemoPadTests */,
+				BDDB349C25021CFD00842C44 /* MemoPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDDB347A25021CFD00842C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDB348C25021CFD00842C44 /* LaunchScreen.storyboard in Resources */,
+				BDDB348925021CFD00842C44 /* Assets.xcassets in Resources */,
+				BDDB348725021CFD00842C44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB349025021CFD00842C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB349B25021CFD00842C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDDB347825021CFD00842C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDB348425021CFD00842C44 /* ViewController.swift in Sources */,
+				BDDB348025021CFD00842C44 /* AppDelegate.swift in Sources */,
+				BDDB348225021CFD00842C44 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB348E25021CFD00842C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDB349725021CFD00842C44 /* MemoPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB349925021CFD00842C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDB34A225021CFD00842C44 /* MemoPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDDB349425021CFD00842C44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDDB347B25021CFD00842C44 /* MemoPad */;
+			targetProxy = BDDB349325021CFD00842C44 /* PBXContainerItemProxy */;
+		};
+		BDDB349F25021CFD00842C44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDDB347B25021CFD00842C44 /* MemoPad */;
+			targetProxy = BDDB349E25021CFD00842C44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDDB348525021CFD00842C44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDB348625021CFD00842C44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDDB348A25021CFD00842C44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDB348B25021CFD00842C44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDDB34A425021CFD00842C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDDB34A525021CFD00842C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDDB34A725021CFD00842C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemoPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.takayama.mizuki.MemoPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDDB34A825021CFD00842C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemoPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.takayama.mizuki.MemoPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDDB34AA25021CFD00842C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemoPadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.takayama.mizuki.MemoPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoPad.app/MemoPad";
+			};
+			name = Debug;
+		};
+		BDDB34AB25021CFD00842C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemoPadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.takayama.mizuki.MemoPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoPad.app/MemoPad";
+			};
+			name = Release;
+		};
+		BDDB34AD25021CFD00842C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemoPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.takayama.mizuki.MemoPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MemoPad;
+			};
+			name = Debug;
+		};
+		BDDB34AE25021CFD00842C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemoPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.takayama.mizuki.MemoPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MemoPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDDB347725021CFD00842C44 /* Build configuration list for PBXProject "MemoPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDB34A425021CFD00842C44 /* Debug */,
+				BDDB34A525021CFD00842C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDB34A625021CFD00842C44 /* Build configuration list for PBXNativeTarget "MemoPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDB34A725021CFD00842C44 /* Debug */,
+				BDDB34A825021CFD00842C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDB34A925021CFD00842C44 /* Build configuration list for PBXNativeTarget "MemoPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDB34AA25021CFD00842C44 /* Debug */,
+				BDDB34AB25021CFD00842C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDB34AC25021CFD00842C44 /* Build configuration list for PBXNativeTarget "MemoPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDB34AD25021CFD00842C44 /* Debug */,
+				BDDB34AE25021CFD00842C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDDB347425021CFD00842C44 /* Project object */;
+}
